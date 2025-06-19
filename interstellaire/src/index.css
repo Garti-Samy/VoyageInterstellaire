@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import "tailwindcss";
+
+html, body ,#root{
+  max-width: 100%;
+  overflow-x: hidden !important;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0; 
+    background-image: linear-gradient(to bottom, #030215, #03020f, #050312, #040313, #00010C);
+    background-size: cover; 
+   
+}
+
+
+
+
+.bg-button{
+  background-color: #0b052a;
+}
+
+
+.halo-purple {
+  position: absolute;
+  top: 150%;
+  left:75%;
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(circle, rgba(132, 2, 255, 0.5) 0%, rgba(0,0,0,0) 70%);
+  filter: blur(120px);
+  /* transform: translate(-50%, -50%); */
+  pointer-events: none;
+  z-index: -10;
+}
+.halo-purple-two {
+  position: absolute;
+  top: 250%;
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(circle, rgba(132, 2, 255, 0.5) 0%, rgba(0,0,0,0) 70%);
+  filter: blur(120px);
+  /* transform: translate(-50%, -50%); */
+  pointer-events: none;
+  z-index: -10;
+}
+.halo-purple-three {
+  position: absolute;
+  top: 260%;
+  left:60%;
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(circle, rgba(133, 2, 255, 0.331) 0%, rgba(0,0,0,0) 70%);
+  filter: blur(120px);
+  /* transform: translate(-50%, -50%); */
+  pointer-events: none;
+  z-index: -10;
+}
+.halo-purple-four {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(circle, rgba(255, 0, 255, 0.48) 0%, rgba(0,0,0,0) 70%);
+  filter: blur(200px);
+  /* transform: translate(-50%, -50%); */
+  pointer-events: none;
+  z-index: -10;
+}
+
+@media (max-width: 768px) {
+  .halo-purple,.halo-purple-two,.halo-purple-three,.halo-purple-four {
+      display: none;
+  }
+}
+
+
+
+
+html, body{
+  max-width: 100%;
+  overflow-x: hidden !important;
+}
+
+ul{
+  padding: 0;
+}
+
+
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* //Citation */
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+
+
+.gradient-text {
+  background: linear-gradient(90deg, #006AFF, #E6007E);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+.title-blackHole{
+  background-color: white;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
